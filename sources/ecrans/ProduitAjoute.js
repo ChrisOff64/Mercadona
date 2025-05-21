@@ -1,11 +1,10 @@
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Accueil from "@ecrans/Accueil";
-import Titre from "@composants/UI/Titre";
-//import Navigation from "@navigation/Navigation";
-export default function App() {
-  return <Accueil></Accueil>;
+export default function ProduitAjoute({}) {
+  <View style={styles.container}>
+    <Text>Accueil</Text>
+  </View>;
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
